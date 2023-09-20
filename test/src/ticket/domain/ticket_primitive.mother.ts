@@ -4,7 +4,7 @@ import { TicketId } from '@app/ticket/domain/ticked_id';
 import { TicketPriority } from '@app/ticket/domain/ticked_priority';
 import { TicketStatus } from '@app/ticket/domain/ticked_status';
 import { TicketPrimitive } from '@app/ticket/domain/ticket.primitive';
-import { Status } from '@app/ticket/enum/status.enum';
+import { Status } from '@app/ticket/domain/enum/status.enum';
 import { TicketIdMother } from './ticket_id.mother';
 import { TicketDescriptionMother } from './ticket_description.mother';
 import { TicketStatusMother } from './ticket_status.mother';

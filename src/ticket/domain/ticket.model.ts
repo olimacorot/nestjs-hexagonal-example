@@ -3,7 +3,7 @@ import { TicketId } from './ticked_id';
 import { TicketPriority } from './ticked_priority';
 import { TicketStatus } from './ticked_status';
 import { TicketCreatedAt } from './ticked_created_at';
-import { Status } from '../enum/status.enum';
+import { Status } from '@app/ticket/domain/enum/status.enum';
 import { TicketPrimitive } from './ticket.primitive';
 
 export class Ticket {

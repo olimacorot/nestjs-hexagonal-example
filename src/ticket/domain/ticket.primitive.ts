@@ -1,4 +1,4 @@
-import { Status } from '../enum/status.enum';
+import { Status } from '@app/ticket/domain/enum/status.enum';
 
 export interface TicketPrimitive {
   id: string;

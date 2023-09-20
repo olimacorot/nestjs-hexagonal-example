@@ -1,4 +1,4 @@
-import { Status } from '@app/ticket/enum/status.enum';
+import { Status } from '@app/ticket/domain/enum/status.enum';
 import { IsEnum, IsNotEmpty, IsNumber, IsString } from 'class-validator';
 
 export class TicketCreateDto {
